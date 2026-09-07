@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" width="700" height="500">
+  <defs>
+    <style>
+      .outline {
+        stroke: #141815;
+        stroke-width: 5;
+        stroke-linejoin: round;
+        stroke-linecap: round;
+      }
+      .trunk-outline {
+        stroke: #141815;
+        stroke-width: 4.5;
+        stroke-linejoin: round;
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+
+  <!-- Base Ground Line -->
+  <path d="M 235 448 L 465 448" stroke="#141815" stroke-width="5.5" stroke-linecap="round" />
+
+  <!-- Trunk Group -->
+  <g class="trunk-outline">
+    <!-- Base root left -->
+    <polygon points="305,447 325,447 332,410 318,414" fill="#9A5932" />
+    <!-- Center lower trunk -->
+    <polygon points="325,447 352,447 348,398 332,410" fill="#BA794C" />
+    <!-- Right root -->
+    <polygon points="352,447 368,447 362,412 348,398" fill="#6B3718" />
+    <!-- Upper trunk left branch -->
+    <polygon points="318,414 332,410 338,348 322,362" fill="#582B12" />
+    <!-- Upper trunk center core -->
+    <polygon points="332,410 348,398 358,346 338,348" fill="#BA794C" />
+    <!-- Upper trunk right facet -->
+    <polygon points="348,398 362,412 372,368 358,346" fill="#884924" />
+  </g>
+
+  <!-- Foliage Group -->
+  <g class="outline">
+    <!-- FAR RIGHT POINTED WING (leaf sticking out right) -->
+    <polygon points="460,252 506,290 468,318" fill="#1FD25D" />
+    <polygon points="468,318 506,290 488,344" fill="#139E43" />
+    <polygon points="468,318 488,344 448,356" fill="#0C6E2D" />
+
+    <!-- TOP APEX CRYSTAL (The prominent diamond peak at top) -->
+    <!-- Main sunlit front-left face of top diamond -->
+    <polygon points="364,122 268,172 342,284" fill="#1FD25D" />
+    <!-- Top-most edge bevel -->
+    <polygon points="364,122 268,172 318,138" fill="#44E87C" />
+    <!-- Shadowed right face of top diamond -->
+    <polygon points="364,122 388,244 342,284" fill="#139E43" />
+    <!-- Upper right shoulder facet -->
+    <polygon points="364,122 414,204 388,244" fill="#1BB952" />
+
+    <!-- UPPER RIGHT EXTENSION (leaf pointing top-right) -->
+    <polygon points="414,204 456,176 438,236" fill="#38DE75" />
+    <polygon points="414,204 438,236 388,244" fill="#139E43" />
+    <polygon points="438,236 460,252 418,288 388,244" fill="#19B24E" />
+    <polygon points="438,236 456,176 460,252" fill="#2CE06F" />
+
+    <!-- FAR LEFT HORIZONTAL WING (sharp diamond pointing left) -->
+    <polygon points="268,172 248,226 216,270" fill="#2BE06D" />
+    <!-- Far left peak -->
+    <polygon points="216,270 178,298 238,322" fill="#17AB49" />
+    <polygon points="216,270 268,266 238,322" fill="#1FD25D" />
+    <polygon points="268,172 216,270 268,266" fill="#3AE47A" />
+
+    <!-- LEFT LOWER WING & UNDERSIDE -->
+    <polygon points="238,322 232,374 278,368" fill="#139E43" />
+    <polygon points="238,322 178,298 232,374" fill="#0C6E2D" />
+    <polygon points="238,322 278,368 288,318 268,266" fill="#1FD25D" />
+    <polygon points="278,368 288,318 316,346" fill="#18B04C" />
+    <polygon points="278,368 316,346 312,388" fill="#0A5B24" />
+
+    <!-- CENTER FRONT FACETS -->
+    <polygon points="268,266 342,284 318,342 288,318" fill="#2BE06D" />
+    <polygon points="342,284 388,244 386,306 318,342" fill="#17AB49" />
+
+    <!-- LOWER CENTER & RIGHT BODY -->
+    <polygon points="318,342 386,306 376,368 334,374" fill="#139E43" />
+    <polygon points="318,342 334,374 312,388" fill="#0A5B24" />
+    <polygon points="388,244 418,288 386,306" fill="#1FD25D" />
+    <polygon points="418,288 468,318 412,352 386,306" fill="#19B24E" />
+    <polygon points="386,306 412,352 376,368" fill="#0E7832" />
+    <polygon points="376,368 412,352 448,356 414,394" fill="#0A5B24" />
+    <polygon points="376,368 414,394 368,390" fill="#07441A" />
+    <polygon points="334,374 376,368 368,390" fill="#0A5B24" />
+  </g>
+</svg>
